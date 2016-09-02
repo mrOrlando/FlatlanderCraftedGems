@@ -35,6 +35,18 @@
             images: [
                 'img/dodecahedron-01.gif',
                 'img/dodecahedron-02.gif'
+            ],
+            reviews: [
+                {
+                    stars: 5,
+                    body: "I love this product!",
+                    author: "joe@tomas.com"
+                },
+                {
+                    stars: 1,
+                    body: "This product sucks",
+                    author: "tim@hater.com"
+                }
             ]
         },
         {
@@ -67,6 +79,18 @@
                 'img/bloodstone-01.gif',
                 'img/bloodstone-02.gif',
                 'img/bloodstone-03.gif'
+            ],
+            reviews: [
+                {
+                    stars: 3,
+                    body: "I think this gem was just OK, could honestly use more shine, IMO",
+                    author: "JimmyDean@sausage.com"
+                },
+                {
+                    stars: 4,
+                    body: "Any gem with 12 faces is for me!",
+                    author: "gemRock@alyssaNicoll.com"
+                }
             ]
         },
         {
@@ -78,7 +102,20 @@
                'img/zircon-01.gif',
                'img/zircon-02.gif',
                'img/zircon-03.gif'
-            ]
+            ],
+            reviews: [{
+              stars: 1,
+              body: "This gem is WAY too expensive for its rarity value.",
+              author: "turtleguyy@example.org"
+            }, {
+              stars: 1,
+              body: "BBW: High Shine != High Quality.",
+              author: "LouisW407@example.org"
+            }, {
+              stars: 1,
+              body: "Don't waste your rubles!",
+              author: "nat@example.org"
+            }]
         }
     ];
 

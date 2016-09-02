@@ -30,6 +30,7 @@
         this.review = {};
 
         this.addReview = function(product) {
+            this.review.createdOn = Date.now();
             product.reviews.push(this.review);
             this.review = {};
         };
@@ -49,12 +50,14 @@
                 {
                     stars: 5,
                     body: "I love this product!",
-                    author: "joe@tomas.com"
+                    author: "joe@tomas.com",
+                    createdOn: 1472824826916
                 },
                 {
                     stars: 1,
                     body: "This product sucks",
-                    author: "tim@hater.com"
+                    author: "tim@hater.com",
+                    createdOn: 1472824826916
                 }
             ]
         },
@@ -65,7 +68,7 @@
             canPurchase: false,
             images: [
                 'img/pentagonal-01.gif',
-                'img/pentagonal-02.png'
+                'img/pentagonal-02.gif'
             ]
         },
         {
@@ -93,12 +96,14 @@
                 {
                     stars: 3,
                     body: "I think this gem was just OK, could honestly use more shine, IMO",
-                    author: "JimmyDean@sausage.com"
+                    author: "JimmyDean@sausage.com",
+                    createdOn: 1472824826916
                 },
                 {
                     stars: 4,
                     body: "Any gem with 12 faces is for me!",
-                    author: "gemRock@alyssaNicoll.com"
+                    author: "gemRock@alyssaNicoll.com",
+                    createdOn: 1472824826916
                 }
             ]
         },
@@ -115,15 +120,18 @@
             reviews: [{
               stars: 1,
               body: "This gem is WAY too expensive for its rarity value.",
-              author: "turtleguyy@example.org"
+              author: "turtleguyy@example.org",
+              createdOn: 1472824826916
             }, {
               stars: 1,
               body: "BBW: High Shine != High Quality.",
-              author: "LouisW407@example.org"
+              author: "LouisW407@example.org",
+              createdOn: 1472824826916
             }, {
               stars: 1,
               body: "Don't waste your rubles!",
-              author: "nat@example.org"
+              author: "nat@example.org",
+              createdOn: 1472824826916
             }]
         }
     ];

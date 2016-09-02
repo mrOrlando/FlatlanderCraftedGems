@@ -9,11 +9,17 @@
         <h1 class="text-center">Flatlander Crafted Gems</h1>
         <h2 class="text-center">- an Angular store -</h2>
         <ul class="list-group">
-            <li class="list-group-item" ng-repeat="product in store.products | limitTo:3 | orderBy:'-price'">
+            <li class="list-group-item" ng-repeat="product in store.products | limitTo:10 | orderBy:'-price'">
                 <h3>
                     {{product.name}}
                     <em class="pull-right">{{product.price | currency }}</em>
                 </h3>
+
+                <div class="gallery">
+                    <div class="img-wrap">
+                        <img class="img-circle center-block" ng-src="{{product.images[0]}}">
+                    </div>
+                </div>
             </li>
         </ul>
     </div>

@@ -56,6 +56,30 @@
                             {{review.body}}
                             <footer>by {{review.author}}</footer>
                         </blockquote>
+
+                        <form name="reviewForm">
+
+                            <h4>Submit a Review</h4>
+
+                            <fieldset class="form-group">
+                                <select class="form-control" title="Stars">
+                                    <option value="">Rate the product</option>
+                                    <option value="5">5 stars</option>
+                                    <option value="4">4 stars</option>
+                                    <option value="3">3 stars</option>
+                                    <option value="2">2 stars</option>
+                                    <option value="1">1 star</option>
+                                </select>
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <textarea class="form-control" placeholder="Write a short review of the product..." title="Review"></textarea>
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <input type="email" class="form-control" placeholder="login@mail.com" title="Email">
+                            </fieldset>
+                            <input type="submit" class="btn btn-primary pull-right" value="Submit Review">
+                        </form>
+
                     </div>
                 </section>
             </li>

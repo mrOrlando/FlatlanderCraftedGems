@@ -17,3 +17,14 @@ ul.img-thumbnails li {
 ul.img-thumbnails li:last-child {
     margin-right: 0;
 }
+
+.nav-pills > li > a {
+    color: #ac005f;
+    cursor: pointer;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+    background: #ac005f !important;
+}

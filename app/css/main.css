@@ -37,3 +37,11 @@ ul.img-thumbnails li:last-child {
     background: #ac005f !important;
     border: 0;
 }
+
+.ng-invalid.ng-dirty {
+    border-color: #fa787e;
+}
+
+.ng-valid.ng-dirty {
+    border-color: #78fa89;
+}

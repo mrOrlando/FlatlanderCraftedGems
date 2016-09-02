@@ -1,0 +1,19 @@
+ul.img-thumbnails {
+    float: left;
+    left: 50%;
+    margin-top: 11px;
+    padding: 0;
+    position: relative;
+}
+
+ul.img-thumbnails li {
+    float: left;
+    left: -50%;
+    margin-right: 5px;
+    position: relative;
+    width: 50px;
+}
+
+ul.img-thumbnails li:last-child {
+    margin-right: 0;
+}

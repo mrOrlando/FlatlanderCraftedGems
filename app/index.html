@@ -2,6 +2,7 @@
 <html ng-app="store">
 <head>
     <link rel="stylesheet" href="bower/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body ng-controller="StoreController as store">
 
@@ -15,10 +16,15 @@
                     <em class="pull-right">{{product.price | currency }}</em>
                 </h3>
 
-                <div class="gallery">
+                <div class="gallery clearfix">
                     <div class="img-wrap">
                         <img class="img-circle center-block" ng-src="{{product.images[0]}}">
                     </div>
+                    <ul class="img-thumbnails clearfix">
+                        <li class="pull-left thumbnail" ng-repeat="image in product.images">
+                            <img ng-src="{{image}}">
+                        </li>
+                    </ul>
                 </div>
             </li>
         </ul>

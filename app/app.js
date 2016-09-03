@@ -97,6 +97,8 @@
                 'img/azurite-01.gif',
                 'img/azurite-02.gif',
                 'img/azurite-03.gif'
+            ],
+            reviews: [
             ]
         },
         {

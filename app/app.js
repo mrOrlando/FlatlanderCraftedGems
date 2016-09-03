@@ -53,9 +53,12 @@
     var gems = [
         {
             name: "Dodecahedron",
-            price: 2.95,
             description: 'Some gems have hidden qualities beyond their luster, beyond their shine... Dodeca is one of those gems.',
-            canPurchase: true,
+            shine: 10,
+            price: 99.99,
+            rarity: 1,
+            color: '#AAA',
+            faces: 3,
             images: [
                 'img/dodecahedron-01.gif',
                 'img/dodecahedron-02.gif'
@@ -76,20 +79,13 @@
             ]
         },
         {
-            name: "Pentagonal Gem",
-            price: 5.95,
-            description: ". . .",
-            canPurchase: false,
-            images: [
-                'img/pentagonal-01.gif',
-                'img/pentagonal-02.gif'
-            ]
-        },
-        {
             name: 'Azurite',
-            price: 2.95,
             description: "Some gems have hidden qualities beyond their luster, beyond their shine... Azurite is one of those gems.",
-            canPurchase: false,
+            shine: 8,
+            price: 110.50,
+            rarity: 7,
+            color: '#CCC',
+            faces: 14,
             images: [
                 'img/azurite-01.gif',
                 'img/azurite-02.gif',
@@ -98,9 +94,12 @@
         },
         {
             name: 'Bloodstone',
-            price: 5.95,
             description: "Origin of the Bloodstone is unknown, hence its low value. It has a very high shine and 12 sides, however.",
-            canPurchase: true,
+            shine: 9,
+            price: 22.90,
+            rarity: 6,
+            color: '#EEE',
+            faces: 12,
             images: [
                 'img/bloodstone-01.gif',
                 'img/bloodstone-02.gif',
@@ -123,9 +122,12 @@
         },
         {
             name: 'Zircon',
-            price: 3.95,
             description: "Zircon is our most coveted and sought after gem. You will pay much to be the proud owner of this gorgeous and high shine gem.",
-            canPurchase: true,
+            shine: 70,
+            price: 1100,
+            rarity: 2,
+            color: '#000',
+            faces: 6,
             images: [
                'img/zircon-01.gif',
                'img/zircon-02.gif',

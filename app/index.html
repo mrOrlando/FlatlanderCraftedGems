@@ -44,7 +44,19 @@
                     </product-description>
                     <div class="panel" ng-show="panel.isSelected(2)">
                         <h4>Specifications</h4>
-                        <blockquote>None yet</blockquote>
+                        <ul class="list-unstyled">
+                            <li>
+                                <b>Shine</b> : {{product.shine}}
+                            </li>
+                            <li>
+                                <b>Faces</b> : {{product.faces}}</li>
+                            <li>
+                                <b>Rarity</b> : {{product.rarity}}
+                            </li>
+                            <li>
+                                <b>Color</b> : {{product.color}}
+                            </li>
+                        </ul>
                     </div>
 
                     <!--  Review Tab's Content  -->

@@ -16,16 +16,8 @@
                     <em class="pull-right">{{product.price | currency }}</em>
                 </h3>
 
-                <div class="gallery clearfix" ng-controller="GalleryController as gallery">
-                    <div class="img-wrap">
-                        <img class="img-circle center-block" ng-src="{{product.images[gallery.current]}}">
-                    </div>
-                    <ul class="img-thumbnails clearfix">
-                        <li class="pull-left thumbnail" ng-repeat="image in product.images">
-                            <img ng-src="{{image}}">
-                        </li>
-                    </ul>
-                </div>
+                <!--  Image Gallery  -->
+                <product-gallery></product-gallery>
 
                 <!--  Product Panels  -->
                 <product-panels></product-panels>
